@@ -2,7 +2,7 @@
 
 header {
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 7rem;
     overflow: hidden;
 }
 
@@ -44,15 +44,14 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 25rem;
-    height: 33rem;
-    margin: 0 auto;
-    /* position: absolute;
-    left: calc(50% - 11rem); */
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem .5rem;
 }
 
 /* =================== ME =================== */
