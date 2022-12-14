@@ -10,9 +10,6 @@
 }
 
 .portfolio__container__experience {
-    /* display: grid;   
-    grid-template-columns: repeat(5, 1fr);
-    gap: 3rem; */
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -45,51 +42,3 @@
 .portfolio__item__experience h3 {
     margin: 1.2rem 0 2rem;
 }
-
-
-/* @media screen and (max-width: 1400px){
-  
-    .portfolio__container__experience {
-        grid-template-columns: repeat(5, 1fr);
-        gap: 1.2rem;
-    }
-  
-} */
-
-
-
-/* ==================== MEDIA QUERYS / TABLETS ==================== */
-
-/* @media screen and (max-width: 1200px){
-  
-    .portfolio__container__experience {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1.2rem;
-    }
-  
-}
-
-
-@media screen and (max-width: 1024px){
-  
-    .portfolio__container__experience {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 1.2rem;
-    }
-  
-} */
-
-
-
-/* ==================== MEDIA QUERYS / CELULAR ==================== */
-
-
-
-/* @media screen and (max-width: 600px){
-  
-    .portfolio__container__experience {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
-  
-} */
