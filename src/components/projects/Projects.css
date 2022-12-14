@@ -57,6 +57,15 @@ h4 {
 /* ==================== MEDIA QUERYS / TABLETS ==================== */
 
 
+@media screen and (max-width: 1300px){
+  
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+  
+}
+
 
 @media screen and (max-width: 1024px){
   
@@ -73,7 +82,7 @@ h4 {
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 756px){
   
     .portfolio__container {
         grid-template-columns: 1fr;
