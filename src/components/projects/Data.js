@@ -1,12 +1,12 @@
-import IMG1 from '../../assets/Youtube.png'
-import IMG2 from '../../assets/gastos.png'
-import IMG3 from '../../assets/veterinaria.png'
-import IMG4 from '../../assets/register.png'
-import IMG5 from '../../assets/restaurant.png'
-import IMG6 from '../../assets/criptos.png'
-import IMG7 from '../../assets/clima.png'
-import IMG8 from '../../assets/pokeapi.png'
-import IMG9 from '../../assets/musica.png'
+import IMG1 from '../../assets/projects/Youtube.png'
+import IMG2 from '../../assets/projects/gastos.png'
+import IMG3 from '../../assets/projects/veterinaria.png'
+import IMG4 from '../../assets/projects/register.png'
+import IMG5 from '../../assets/projects/restaurant.png'
+import IMG6 from '../../assets/projects/criptos.png'
+import IMG7 from '../../assets/projects/clima.png'
+import IMG8 from '../../assets/projects/pokeapi.png'
+import IMG9 from '../../assets/projects/musica.png'
 
 const data = [
     {
@@ -74,5 +74,6 @@ const data = [
     }
     
 ]
+
 
 export default data
