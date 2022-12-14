@@ -7,6 +7,7 @@ import IMG6 from '../../assets/projects/criptos.png'
 import IMG7 from '../../assets/projects/clima.png'
 import IMG8 from '../../assets/projects/pokeapi.png'
 import IMG9 from '../../assets/projects/musica.png'
+import IMG10 from '../../assets/projects/email.png'
 
 const data = [
     {
@@ -33,16 +34,16 @@ const data = [
     {
         id: 4,
         image: IMG4,
-        title: 'User Register',
+        title: 'Register + Task Recorder',
         github: 'https://github.com/bautista801/Registro-de-usuario',
         demo: 'https://relaxed-nasturtium-ddcaec.netlify.app/'
     },
     {
-        id: 5,
-        image: IMG5,
-        title: 'Restaurant',
-        github: 'https://github.com/bautista801/restaurante',
-        demo: 'https://restaurante-gamma.vercel.app/'
+        id: 10,
+        image: IMG10,
+        title: 'Email Simulator',
+        github: 'https://github.com/bautista801/Simulador-de-Email',
+        demo: 'https://simulador-de-email.vercel.app/'
     },
     {
         id: 6,
@@ -71,6 +72,13 @@ const data = [
         title: 'Music',
         github: 'https://github.com/bautista801/Proyecto-Musica',
         demo: 'https://bautista801.github.io/Proyecto-Musica/'
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: 'Restaurant',
+        github: 'https://github.com/bautista801/restaurante',
+        demo: 'https://restaurante-gamma.vercel.app/'
     }
     
 ]

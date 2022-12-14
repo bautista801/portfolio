@@ -6,7 +6,22 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    height: 95vh;
     padding: 0 10px;
+    overflow: scroll;
+}
+
+.portfolio__container::-webkit-scrollbar {
+    display: block;
+    width: .5rem;
+    background-color: rgb(236, 231, 231);
+    border-radius: 5px;
+    height: 0;
+}
+
+.portfolio__container::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: .5rem;
 }
 
 .portfolio__item {
