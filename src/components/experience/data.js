@@ -8,6 +8,7 @@ import skill7 from '../../assets/skills/git.png'
 import skill8 from '../../assets/skills/github.png'
 import skill9 from '../../assets/skills/firebase.png'
 import skill10 from '../../assets/skills/figma.png'
+import skill11 from '../../assets/skills/redux.png'
 
 
 const skills = [
@@ -70,6 +71,12 @@ const skills = [
         image: skill10,
         title: 'FIGMA',
         level: 'INTERMEDIATE'
+    },
+    {
+        id: 11,
+        image: skill11,
+        title: 'REDUX',
+        level: 'BASIC'
     }
     
 ]
